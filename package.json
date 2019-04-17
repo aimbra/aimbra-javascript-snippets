@@ -1,0 +1,35 @@
+{
+    "name": "aimbra-js-snippets",
+    "displayName": "aimbra-js-snippets",
+    "description": "ES6, ESNext Snippets for Aimbra Solutions.",
+    "version": "0.0.1",
+    "publisher": "aimbra",
+    "icon": "icon.png",
+    "author": {
+        "name": "Thiago Cunha",
+        "email": "thiagosantoscunha@outlook.com",
+        "url": "https://github.com/thiagosantoscunha"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/aimbra/aimbra-js-snippets"
+    },
+    "engines": {
+        "vscode": "^1.33.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/javascript.snippets.json"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/typescript.snippets.json"
+            }
+        ]
+    }
+}
