@@ -1,13 +1,21 @@
 {
   "Print to console": {
-		"prefix": [
-      "console",
-      "log"
-    ],
+		"scope": "javascript, typescript",
+		"prefix": "@console"
+    ,
 		"body": [
 			"console.log('$1');",
 			"$2"
 		],
-		"description": "Log output to console"		
+		"description": "Saída do Log no console"		
+	},
+  "Alert in Browser Navigation": {
+		"scope": "javascript, typescript",
+		"prefix": "@alert",
+		"body": [
+			"alert('{value$1}');",
+			"$2"
+		],
+		"description": "Alert in Browser Navigation"		
 	}
 }

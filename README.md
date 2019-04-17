@@ -10,6 +10,11 @@ Esta é apenas uma versão de teste para subir em modo para o repositório.
 
 > Tip: Esta extesão contém snippets mais usados pelos desenvolvedores Aimbra a cunho de melhorar a produtividade.
 
+## Commands
+
+- **@cons: **`console.log('value');`
+- **@alert: **`alert('value');`
+
 ## Requirimentos
 
 Não é necessário nenhum plugin adicional.
