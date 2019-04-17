@@ -12,8 +12,8 @@ Esta é apenas uma versão de teste para subir em modo para o repositório.
 
 ## Commands
 
-- **@cons: **`console.log('value');`
-- **@alert: **`alert('value');`
+- *@cons: * `console.log('value');`
+- *@alert: * `alert('value');`
 
 ## Requirimentos
 
