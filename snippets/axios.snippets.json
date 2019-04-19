@@ -1,0 +1,29 @@
+{
+  "Post Axios JS Vanilla": {
+		"scope": "javascript",
+		"prefix": "@axios-get",
+		"body": [
+			"axios({",
+			"\tmethod: 'POST',",
+      "\turl: ${1:URL},",
+      "\tdata: ${2:data},",
+			"}).then(function(resp) {",
+			"\t${2:resolve(resp.data);}",
+			"});"
+		],
+		"description": "Get With Axios"
+	},
+  "Get Axios JS Vanilla": {
+		"scope": "javascript",
+		"prefix": "@axios-get",
+		"body": [
+			"axios({",
+			"\tmethod: 'GET',",
+			"\turl: ${1:URL},",
+			"}).then(function(resp) {",
+			"\t${2:resolve(resp.data);}",
+			"});"
+		],
+		"description": "Get With Axios"
+	}
+}

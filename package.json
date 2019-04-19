@@ -2,7 +2,7 @@
     "name": "aimbra-js-snippets",
     "displayName": "aimbra-js-snippets",
     "description": "ES6, ESNext Snippets for Aimbra Solutions.",
-    "version": "0.0.1",
+    "version": "0.0.8",
     "publisher": "aimbra",
     "icon": "icon.png",
     "author": {
@@ -24,7 +24,15 @@
         "snippets": [
             {
                 "language": "javascript",
-                "path": "./snippets/javascript.snippets.json"
+                "path": "./snippets/resources-js.snippets.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/poo-js.snippets.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/axios.snippets.json"
             },
             {
                 "language": "typescript",

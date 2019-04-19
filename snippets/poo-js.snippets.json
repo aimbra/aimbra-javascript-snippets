@@ -1,0 +1,52 @@
+{
+  "Prototype": {
+		"scope": "javascript",
+		"prefix": "@prototype",
+		"body": [
+			"${1:Entity}.prototype.${2:property} = (${3:params}) => {",
+			"${4:\t//Digite seu código}",
+			"};"
+		],
+		"description": "Create Prototype Struct"
+	},
+  "Object": {
+		"scope": "javascript",
+		"prefix": "@object",
+		"body": [
+			"${1:const} ${2:obj} = {",
+			"\t${3:param}: ${4:value}",
+			"};"
+		],
+		"description": "Create Prototype Struct"
+  },
+  "Object Function": {
+		"prefix": "@functionobject",
+		"body": [
+			"${1:name}: (${2:params}) => {",
+				"\t${3:#Digite aqui o seu código}",
+				"}"
+		],
+		"description": "Defined one Function in Object"		
+	},
+  "Object Keys": {
+		"prefix": ["@objectkeys", "@keys"],
+		"body": [
+			"Object.keys(${1:object});$2"
+		],
+		"description": "Get Object Keys"		
+	},
+  "Object Values": {
+		"prefix": ["@objectvalues", "@values"],
+		"body": [
+			"Object.values(${1:object});$2"
+		],
+		"description": "Get Object Values."		
+	},
+  "Object Entries": {
+		"prefix": ["@objectentries", "@entries"],
+		"body": [
+			"Object.entries(${1:object});$2"
+		],
+		"description": "Array with all the objects subarrays."		
+	},
+}
